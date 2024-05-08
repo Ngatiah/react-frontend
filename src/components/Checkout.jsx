@@ -25,7 +25,7 @@ export default function Checkout() {
     error,
     sendRequest,
     clearData,
-  } = useHttp("http://localhost:3000/orders", requestConfig);
+  } = useHttp("https://react-backend-duiw.onrender.com/orders", requestConfig);
   //   } = useHttp("http://localhost:3000/orderssssss", requestConfig);
 
   const cartTotal = cartCtx.items.reduce(
