@@ -15,7 +15,7 @@ export default function Meals() {
     isLoading,
     error,
     // } = useHttp("http://localhost:3000/meals", {}, []);
-  } = useHttp("http://localhost:3000/meals", requestConfig, []);
+  } = useHttp("https://react-backend-duiw.onrender.com/meals", requestConfig, []);
   // } = useHttp("http://localhost:3000/mealssssss", requestConfig, []);
 
   // console.log(loadedMeals);
